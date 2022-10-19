@@ -1,0 +1,9 @@
+
+div.logo section article{width: 50%;}
+div.activity section{display: block;}
+div.activity section article{width: 100%;}
+div.activity section article .texts .btn,
+div.ftrWrap footer section .email,
+div.ftrWrap footer header ul{
+    display: none;
+}

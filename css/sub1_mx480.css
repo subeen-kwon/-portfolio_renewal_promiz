@@ -1,0 +1,12 @@
+div.hdrWrap .bar button{
+    display: block;
+    margin-top: 40px;
+}
+div.hdrWrap .menuWrap{background-color: rgba(0,0,0,0.7);margin-top: 20px;display: none;}
+div.hdrWrap .menuWrap nav{display: block;}
+div.hdrWrap .menuWrap nav h2{color: #fff;line-height: 100px;}
+div.ct2,div.hdrWrap header ul li,
+div.ftrWrap footer section .email,
+div.ftrWrap footer header ul{
+    display: none;
+}

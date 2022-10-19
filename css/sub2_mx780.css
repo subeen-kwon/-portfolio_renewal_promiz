@@ -1,0 +1,12 @@
+/*sub2_mx780.css*/
+div.jewelry section article .image,
+div.best section article .image{width: 200px;height: 200px;}
+div.best section header{text-align: right;}
+div.best section header h4{margin-left: 0;}
+div.best section article:nth-of-type(2){margin-left: 0;margin-top: 0;}
+div.ftrWrap .email,div.jewelry .sect2,
+div.jeweal .sect1 article:nth-child(2){display: none;}
+div.jeweal .sebest article .i4{width: 100%;}i4{width: 100%;}
+div.tnank section article{display: block;}
+div.tnank section article .image,div.tnank section article .texts{width: 100%;}
+div.jewelry{display: block;width: 780px;}

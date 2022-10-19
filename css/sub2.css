@@ -1,0 +1,121 @@
+div.market header{text-align: center;}
+div.market header h2{
+    font-size: 48px; text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+div.content section header h4{
+    font-size: 16px;font-weight: 700;color: #000;line-height: 40px;
+}
+div.mnWrap{
+    height: 640px;
+    background-image: url(../img/sub1/sub1_main.jpg);
+    background-position: center;
+    background-size:cover;
+}
+/**/
+div.content section article .texts{text-align: center;}
+div.content section article .texts h5{
+    font-size: 14px;font-weight: 700;line-height: 20px;color: #000;
+}
+div.content section article .texts p{margin-top: 20px;}
+div.market section{
+    display: flex;align-items: center;
+}
+div.market section header{
+    width: 20%;
+}
+div.market section article{
+     width: calc(80% / 3 - 20px);
+    margin-left: 10px;
+}
+div.market section article .image{
+   background-color: #999;height: 320px;
+    background-position: center;
+    background-size: cover;
+}
+div.market section article .i1{
+    background-image: url(../img/sub2/sub2_new1.jpg);
+}
+div.market section article .i2{
+        background-image: url(../img/sub2/sub2_new2.jpg);
+}
+div.market section article .i3{
+        background-image: url(../img/sub2/sub2_new3.jpg);
+}
+div.button{display: none;}
+div.best section{
+    display: flex;
+}
+div.best section header{
+    height: 20px;
+}
+div.best section header h4{
+   margin-left: -200px;
+    padding: 80px 20px;
+}
+div.best section article:nth-of-type(2){
+    margin-left: -20px;
+    margin-top: 280px;
+}
+div.best section article:nth-of-type(3){
+    margin-right: 300px;
+}
+div.best section article .image{
+    background-color: #999;
+       background-position: center;
+    background-size: cover;
+}
+div.best section article .i1{
+    height: 600px;width: 540px;
+    background-image: url(../img/sub2/sub2_best1.jpeg);
+}
+div.best section article .i2{
+    height: 280px;width: 280px;
+    background-image: url(../img/sub2/sub2_b3.jpg);
+}
+div.best section article .i3{
+    height: 240px;width: 250px;
+    background-image: url(../img/sub2/sub2_best2.jpg);
+}
+div.jewelry{
+    display: flex;
+    justify-content: center;
+    width: 1080px;
+   margin-left: auto;margin-right: auto;
+}
+div.jewelry .sect1{  
+    display: flex;
+    justify-content: space-around;flex-wrap: wrap;
+}
+div.jewelry section article .image{
+    background-color: #999;
+    width: 260px;height: 240px;
+    background-position: center;
+    background-size: cover;
+}
+div.jewelry .sect1 article .i1{
+    background-image: url(../img/sub2/sub2_je1.jpg);
+}
+div.jewelry .sect1 article .i2{ 
+    background-image: url(../img/sub2/sub2_je2.jpg);
+}
+div.jewelry .sect1 article .i3{
+    background-image: url(../img/sub2/sub2_je3.jpg);
+}
+div.jewelry .sect2 article .i4{
+     width:520px;height: 560px;
+    background-image: url(../img/sub2/sub2_je4.jpg);
+}
+div.tnank{padding-top: 0;}
+div.tnank section article{
+    display: flex;
+}
+div.tnank section article .image{
+    background-color: #999;
+    height: 360px;width: 50%;
+    background-image: url(../img/sub2/sub2_99.jpg);
+     background-position: center;
+    background-size: cover;
+}
+div.tnank section article .texts{
+    padding: 80px 0;width: 50%;
+}

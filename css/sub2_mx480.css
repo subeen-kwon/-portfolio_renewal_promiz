@@ -1,0 +1,7 @@
+
+div.market section,div.best section{display: block;}
+div.market section article{width: 100%;}
+div.button{display: block;text-align: center;margin-top: -80px;}
+
+div.best,div.jewelry,
+div.ftrWrap footer header ul{display: none;}

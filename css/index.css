@@ -1,0 +1,151 @@
+div.mnWrap{
+    height: 640px;
+    background-image: url(../img/sub1/sub1_main.jpg);
+    background-position: center;
+    background-size:cover;
+}
+div.promiz{}
+div.promiz section{}
+div.promiz section article{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+div.promiz section article:first-of-type{
+    margin-top: 0;
+}
+div.promiz section article.rtl{
+    flex-direction: row-reverse;
+}
+div.promiz section article .image{
+    background-color: #999;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(100% / 12 * 7);
+    height: 440px;
+}
+div.promiz section article .i1{
+    
+    background-image: url(../img/index/id.3.jpg);
+}
+div.promiz section article .i2{
+    
+    background-image: url(../img/index/id.2.jpg);
+}
+div.promiz section article .i3{
+    background-image: url(../img/index/id.1.jpg);
+}
+div.promiz section article .texts{
+    width: 430px;
+    position: absolute;
+    right: 0;
+}
+div.promiz section article.rtl .texts{
+    right: auto; left: 0;
+    text-align: right;
+}
+div.promiz section article .texts h4{
+}
+div.promiz section article .texts p{
+    margin-top: 20px;
+}
+
+/*컨텐츠2*/
+div.campaign{
+    background-color: #e1e1e1;
+}
+div.campaign header{
+    text-align: center;
+}
+
+div.campaign section article{
+    display: flex;
+    justify-content: space-around;
+}
+div.campaign section article .image{
+    width: calc(33.33% - 20px);height: 440px;background-color: #999;
+       background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.campaign section article .i1{
+        background-image: url(../img/sub1/sub1_pj1.jpg);
+}
+div.campaign section article .i2{
+           background-image: url(../img/sub1/sub1_pj2.jpg);
+}
+div.campaign section article .i3{
+    background-image: url(../img/sub1/sub1_pj5.jpg);
+}
+
+/*컨텐츠3*/
+div.market{}
+div.market section{}
+div.market section article{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+div.market section article:first-of-type{
+    margin-top: 0;
+}
+div.market section article.banner{}
+div.market section article.banner .image{
+    height: 280px;
+}
+div.market section article.detail{}
+div.market section article.detail .image{
+    width: calc(50% - 20px);
+}
+div.market section article.detail .texts{
+    width: calc(50% - 20px);
+}
+div.market section article.detail .texts h3{
+    font-size: 24px; line-height: 40px; color: #000; font-weight: 700;
+    border-top: 2px solid #000;
+}
+div.market section article.detail .texts h5{
+    font-size: 16px; line-height: 20px; color: #000;font-weight: 700;
+    margin-top: 20px;
+}
+div.market section article.detail .texts ul{
+    margin-top: 40px;
+}
+div.market section article.detail .texts ul li{
+    font-size: 14px;line-height: 30px;color: #000;
+   
+}
+div.market section article.detail .texts .btn button{
+    margin-top: 20px;
+}
+div.market section article.thumbs{}
+div.market section article.thumbs .image{
+    width: calc(25% - 20px); height: 240px;
+    border: 1px solid #eee;
+}
+div.market section .image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.market section .i1{
+      background-image: url(../img/index/sub01_bg.png);
+      width: 100%;
+}
+div.market section .i2{
+      background-image: url(../img/sub2/sub2_best1.jpeg);
+}
+div.market section .i3{
+        background-image: url(../img/index/index_mark1.jpg);
+}
+div.market section .i4{
+        background-image: url(../img/index/index_mark2.jpg);
+}
+div.market section .i5{
+    background-image: url(../img/index/index_mark3.jpg);
+}
+div.market section .i6{
+    background-image: url(../img/sub2/sub2_b3.jpg);
+}

@@ -1,0 +1,91 @@
+div.content .texts h5{font-size: 24px;font-weight: 700;line-height: 40px;color: #52c2be;}
+div.mnWrap{
+    height: 640px;
+    background-image: url(../img/sub1/sub1_main.jpg);
+    background-position: center;
+    background-size:cover;
+}
+/*컨텐츠1*/
+div.brand header{
+    text-align: center;
+}
+div.brand header h4{
+    font-size: 48px;font-weight: 700;line-height: 80px;color: #52c2be;
+     text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+div.brand section{
+    display: flex;position: relative;padding: 80px 0;
+}
+div.brand section article{
+    width: 66.66%;
+    direction: rtl;
+}
+div.brand section article .image{
+    height: 720px;
+    width: calc((100vw - 1080px) / 2 + 100%);direction: ltr;
+    background-image: url(../img/sub3/sub3_1.jpg);
+    background-position: top;
+    background-size: cover;
+}
+div.brand section article .texts{
+    width: 33.33%;
+    padding: 0 40px;
+    position: absolute;
+    top: 240px;right: 0;
+    direction: ltr;
+}
+/*컨텐츠2*/
+div.logo{}
+div.logo header{text-align: center;}
+div.logo header h5{font-size: 24px;font-weight: 700;line-height: 40px;color: #52c2be;}
+div.logo section{
+    display: flex;
+}
+div.logo section article .texts{text-align: center;}
+div.logo section article{width: calc(33.33% - 20px);align-items: center;}
+div.logo section article:nth-child(3){display: flex;}
+div.logo section article .image{
+    height: 200px;
+    background-repeat: no-repeat;
+}
+div.logo section article .i1{
+    background-image: url(../img/sub3/sub3_logo.png);
+}
+div.logo section article .i2{
+    background-image: url(../img/logo1.png)
+}
+div.logo section article .i3{
+    width: 160px;height: 160px;background-color: #0dbbc1;
+ 
+}
+/*컨텐츠3*/
+div.activity{
+  padding-top: 0;
+}
+div.activity header{text-align: center;}
+div.activity header h5{font-size: 24px;font-weight: 700;line-height: 40px;color: #52c2be;}
+div.activity section{
+    display: flex; justify-content: space-around;margin-top: 40px;
+}
+div.activity section article{
+    width: calc(50% - 20px);
+}
+div.activity section article .image{
+    height: 440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+div.activity section article .i1{
+    background-image: url(../img/sub3/sub3_act1.jpg);
+}
+div.activity section article .i2{
+    background-image: url(../img/sub3/sub3_act2.jpg);
+}
+div.activity section article .texts{
+    margin-top: 20px;
+    text-align: center;
+}
+div.activity section article .texts .btn{
+    margin-top: 20px;
+}

@@ -1,0 +1,116 @@
+div.mnWrap{
+    height: 640px;
+    background-image: url(../img/sub1/sub1_main.jpg);
+    background-position: center;
+    background-size:cover;
+}
+/*컨텐츠1*/
+div.campaign{
+    background: linear-gradient(60deg, #52c2be 0%, #52c2be 100%), linear-gradient(60deg, #a8a8a8 0%, #a5c7c6 100%);
+    background-size:45% 1000px, 60% 680px;
+    background-repeat: no-repeat;
+    background-position: right top, left bottom;
+    padding-bottom: 240px;
+}
+
+div.campaign section{}
+div.campaign section .artview{
+    width: 75%;
+    overflow: hidden;
+    margin-left: auto;
+}
+div.campaign section .artgroup{
+    width: calc(33.33% * 5);
+     display: flex; justify-content: space-around;
+}
+div.campaign section article{
+     width: calc(100% / 5 - 20px);
+}
+div.campaign section article .image{
+    background-color: #999;
+    height: 360px;
+    background-position: center;
+    background-size: cover;
+}
+div.campaign section article .i1{
+    background-image: url(../img/sub1/sub1_pj4.jpg);
+}
+div.campaign section article .i2{
+    background-image: url(../img/sub1/sub1_pj2.jpg);
+}
+div.campaign section article .i3{
+    background-image: url(../img/sub1/sub1_pj5.jpg);
+}
+div.campaign section article .texts{
+    position: relative;
+    background-color: #fff;
+    margin-top: -160px;
+    padding: 10px;
+    margin-top: 0;
+}
+div.campaign section article .texts p{margin-top: 0;}
+div.campaign section article .texts i{
+   font-size: 30px;line-height: 40px;color: #52c2be;
+    position: absolute;
+    top: 0;right: 0;
+}
+/**/
+div.banner{
+    padding: 0; margin-top: -120px;
+}
+div.banner section{
+    margin-top: 0;
+}
+div.banner section article{
+    text-align: center;
+    width: calc(75% - 20px);
+    margin-left: 10px;
+    background-color: #e1e1e1;
+    padding: 80px;
+}
+div.banner section article i{
+    font-size: 30px;
+    line-height: 40px;
+    color: #52c2be;
+    margin-bottom: 20px;
+}
+div.banner section article .btn{
+    margin-top: 40px;
+}
+/*컨텐츠2*/
+div.ct2 section{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.ct2 section .image{
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+div.ct2 section .i1{
+    width:50%;
+    background-image: url(../img/sub1/sub1_1..jpg);
+}
+div.ct2 section .i2{
+    width:25%;
+    background-image: url(../img/sub1/sub1_2.jpg);
+}
+div.ct2 section .i3{
+    width:25%;
+     background-image: url(../img/sub1/sub1_3.png);
+}
+div.ct2 section .i4{
+    width:25%;
+     background-image: url(../img/sub1/sub_4.jpg);
+}
+div.ct2 section .i5{
+    width: 25%;
+     background-image: url(../img/sub1/sub1_5.jpg);
+}
+div.ct2 section .i6{
+    width:50%;
+    background-image: url(../img/sub1/sub1_6.jpg);
+}div.ct2 section .i6{
+    width:50%;
+    background-image: url(../img/sub1/sub1_6.jpg);
+}

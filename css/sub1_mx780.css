@@ -1,0 +1,9 @@
+/*sub1_mx780.css*/
+div.campaign header{text-align: center;}
+div.campaign section{display: block;}
+div.campaign section .swiper-container{width: 100%;}
+div.campaign section .swiper-wrapper{display: block;}
+div.campaign section article{width: 100%;}
+div.campaign section article:nth-child(4),div.campaign section article:nth-child(5){display: none;}
+div.banner section article{width: 100%;}
+div.ftrWrap .email{display: none;}

@@ -1,0 +1,10 @@
+/*sub3_mx780.css*/
+div.brand section{display: block;}
+div.brand section article{width: 100%;}
+div.brand section article .image{ width: 100%;}
+div.brand section article .texts{width: 100%;text-align: center;margin-top: 580px;}
+div.logo section article:nth-child(3),
+div.logo section{display: block;}
+div.logo section article{margin: 0 auto;}
+
+div.ftrWrap .email{display: none;}

@@ -1,0 +1,19 @@
+
+div.promiz section article .image{width: 100%;}
+div.hdrWrap .bar button{
+    display: block;
+    margin-top: 40px;
+}
+
+div.campaign section article{
+    display: block;
+}
+div.campaign section article .image{
+    width: 100%;
+}
+div.market,
+div.hdrWrap header ul li,
+div.ftrWrap footer section .email,
+div.ftrWrap footer header ul{
+    display: none;
+}

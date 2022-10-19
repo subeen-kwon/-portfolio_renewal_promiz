@@ -1,0 +1,106 @@
+div.mnWrap{
+    height: 640px;
+    background-image: url(../img/sub1/sub1_main.jpg);
+    background-position: center;
+    background-size:cover;
+}
+/*컨텐츠1*/
+div.pic section {
+    display: flex;
+}
+div.pic section .image {
+    width: calc(50% - 20px);
+    height: 720px;
+    background-color: #999;
+    background-image: url(../img/sub4/sub4_1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.pic section .texts {
+    width: calc(50% - 20px);
+    height: 720px;
+    text-align: center;
+    padding: 80px 40px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
+}
+div.pic section .texts h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000;
+}
+div.pic section .texts h5 {margin-top: 120px;}
+div.pic section .texts .btn {margin-top: 40px;}
+div.pic section .texts .btn button {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.pic section .texts .btn .c{
+    background-color: #52c2be;color: #000;
+    border: 0;
+}
+
+/*컨텐츠2*/
+div.order {
+    padding: 0
+}
+div.order header ul{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid #666;
+}
+div.order header ul li{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+}
+div.order section .image {
+    width: 100%;
+    height: 760px;
+    background-color: #999;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.order section .i1{background-image: url(../img/sub4/sub4_1.jpeg);}
+div.order section .i2{background-image: url(../img/sub4/sub4-2.jpg);}
+div.order section .i3{background-image: url(../img/sub4/sub4_3.jpeg);}
+div.order section .i4{background-image: url(../img/sub4/sub4_4.jpeg);}
+div.order section .i5{background-image: url(../img/sub4/sub4_5.jpeg);}
+/*컨텐츠3*/
+div.detail {}
+div.detail section {
+    display: flex;
+    justify-content: space-around;
+}
+div.detail section article{
+    display: flex;
+}
+div.detail section article .texts{
+    height: 200px;
+}
+div.detail section article .texts h5{
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #52c2be;
+}
+div.detail section article .texts p{
+    font-size: 16px;
+    line-height: 40px;
+}
+div.detail section article .image{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: #bcc5d6;
+    margin-left: 20px;
+}
